@@ -1,0 +1,135 @@
+.container_skills{
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: relative;
+z-index: 1;
+align-items: center;
+padding-top: 80px;
+}
+.container_skills h1{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px
+}
+.container_skills p{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+.wrapper{
+position: relative;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+width: 100%;
+max-width: 1100px;
+gap: 12px;
+}
+.skilllist{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 30px;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.frontend{
+width: 100%;
+    max-width: 500px;
+    background: rgb(1, 148, 128);
+    border: 0.1px solid rgb(1, 17, 17);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 24px;
+    border-radius: 16px;
+    padding: 18px 25px;
+
+}
+.frontend h3{
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.set{
+display: flex;
+  -webkit-box-pack: center;
+    justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+.skills_item{
+    font-size: 10px;
+    font-weight: 20px;
+    color: rgba(175, 205, 235, 0.5);
+    border: 1px solid rgba(242, 243, 244, 0.5);
+    border-radius: 12px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backend{
+    width: 100%;
+    max-width: 500px;
+    background: rgb(1, 148, 128);
+    border: 0.1px solid rgb(1, 17, 17);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 24px;
+    border-radius: 16px;
+    padding: 18px 25px;
+    margin-top: 12px;
+}
+.backend h3{
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.other{
+    width: 100%;
+    max-width: 500px;
+    background: rgb(1, 148, 128);
+    border: 0.1px solid rgb(1, 17, 17);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 24px;
+    border-radius: 16px;
+    padding: 18px 25px;
+    margin-top: 12px;
+    
+}
+.other h3{
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.setlist{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 12px 16px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 8px;
+}
+.react{
+    width: 24px;
+    height: 24px;
+}
+.html{
+width: 24px;
+    height: 24px;
+}
